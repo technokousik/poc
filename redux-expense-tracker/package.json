@@ -1,0 +1,8 @@
+{
+  "name": "redux-expense-tracker",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}

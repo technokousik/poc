@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6a48eee5ed723410e8df923b"
+  },
+  "name": "Sudeshna Das",
+  "email": "sudeshna@gmail.com",
+  "password": "$2b$10$.ALgki5Z89zPlp7iRKVlr.5B6Kw.gz6Ekr7kWGyR5toQHPqhANAgq",
+  "role": "customer",
+  "createdAt": {
+    "$date": "2026-07-04T11:30:45.752Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T11:30:45.752Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a48eef5ed723410e8df923c"
+  },
+  "name": "Admin",
+  "email": "admin@gmail.com",
+  "password": "$2b$10$eywg8bQd9RsQmFOygTaeEuF2dLtBLrTny5HkjKKJOUtazybg1/Hca",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2026-07-04T11:31:01.710Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T11:31:01.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4a33cf2f4bb8a2a631a49c"
+  },
+  "name": "Sudeshna1",
+  "email": "sudeshnadas@gmail.com",
+  "password": "$2b$10$MlwG8tDob2oGe8FiI5IEpe7XmcwNjIzU2Zd4L9L33YjvCl0zI8t3G",
+  "role": "customer",
+  "createdAt": {
+    "$date": "2026-07-05T10:37:03.172Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-05T10:37:03.172Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,340 @@
+[{
+  "_id": {
+    "$oid": "6a48f105ed723410e8df923d"
+  },
+  "name": "MacBook Air M4",
+  "description": "Apple M4 Chip Laptop",
+  "price": 99999,
+  "category": "Laptop",
+  "brand": "Apple",
+  "image": "https://dummyimage.com/macbook.jpg",
+  "stock": 20,
+  "rating": 4.5,
+  "createdAt": {
+    "$date": "2026-07-04T11:39:49.194Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T11:39:49.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a48f146ed723410e8df923e"
+  },
+  "name": "Samsung Galaxy S25",
+  "description": "Flagship Android Phone",
+  "price": 74999,
+  "category": "Mobile",
+  "brand": "Samsung",
+  "image": "https://dummyimage.com/s25.jpg",
+  "stock": 30,
+  "rating": 4.5,
+  "createdAt": {
+    "$date": "2026-07-04T11:40:54.639Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T11:40:54.639Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a48f161ed723410e8df923f"
+  },
+  "name": "Sony WH-1000XM6",
+  "description": "Noise Cancelling Headphones",
+  "price": 32999,
+  "category": "Accessories",
+  "brand": "Sony",
+  "image": "https://dummyimage.com/sony.jpg",
+  "stock": 15,
+  "rating": 4.5,
+  "createdAt": {
+    "$date": "2026-07-04T11:41:21.820Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T11:41:21.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a48f17ced723410e8df9240"
+  },
+  "name": "Logitech MX Keys",
+  "description": "Wireless Keyboard",
+  "price": 9999,
+  "category": "Accessories",
+  "brand": "Logitech",
+  "image": "https://dummyimage.com/keyboard.jpg",
+  "stock": 50,
+  "rating": 4.5,
+  "createdAt": {
+    "$date": "2026-07-04T11:41:48.861Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T11:41:48.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a48f18fed723410e8df9241"
+  },
+  "name": "Logitech MX Master 3S",
+  "description": "Wireless Mouse",
+  "price": 7999,
+  "category": "Accessories",
+  "brand": "Logitech",
+  "image": "https://dummyimage.com/mouse.jpg",
+  "stock": 40,
+  "rating": 4.5,
+  "createdAt": {
+    "$date": "2026-07-04T11:42:07.031Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-04T11:42:07.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4a002abce2b566fa40719d"
+  },
+  "name": "Razer BlackWidow V4",
+  "description": "Mechanical Gaming Keyboard",
+  "price": 12999,
+  "category": "Accessories",
+  "brand": "Razer",
+  "image": "https://dummyimage.com/razer-keyboard.jpg",
+  "stock": 18
+},
+{
+  "_id": {
+    "$oid": "6a4a004fbce2b566fa40719f"
+  },
+  "name": "Xiaomi Smart Band 9",
+  "description": "Fitness Tracker",
+  "price": 3999,
+  "category": "Wearables",
+  "brand": "Xiaomi",
+  "image": "https://dummyimage.com/smart-band.jpg",
+  "stock": 55
+},
+{
+  "_id": {
+    "$oid": "6a4a0064bce2b566fa4071a1"
+  },
+  "name": "Amazon Echo Dot (5th Gen)",
+  "description": "Smart Speaker with Alexa",
+  "price": 5499,
+  "category": "Smart Home",
+  "brand": "Amazon",
+  "image": "https://dummyimage.com/echo-dot.jpg",
+  "stock": 45
+},
+{
+  "_id": {
+    "$oid": "6a4a0077bce2b566fa4071a3"
+  },
+  "name": "TP-Link Archer AX55",
+  "description": "Wi-Fi 6 Router",
+  "price": 7999,
+  "category": "Networking",
+  "brand": "TP-Link",
+  "image": "https://dummyimage.com/router.jpg",
+  "stock": 24
+},
+{
+  "_id": {
+    "$oid": "6a4a0086bce2b566fa4071a5"
+  },
+  "name": "SanDisk Extreme 1TB SSD",
+  "description": "Portable External SSD",
+  "price": 10999,
+  "category": "Storage",
+  "brand": "SanDisk",
+  "image": "https://dummyimage.com/sandisk-ssd.jpg",
+  "stock": 28
+},
+{
+  "_id": {
+    "$oid": "6a4a0092bce2b566fa4071a7"
+  },
+  "name": "Anker 20000mAh Power Bank",
+  "description": "Fast Charging Power Bank",
+  "price": 4999,
+  "category": "Accessories",
+  "brand": "Anker",
+  "image": "https://dummyimage.com/powerbank.jpg",
+  "stock": 70
+},
+{
+  "_id": {
+    "$oid": "6a4a00a3bce2b566fa4071a9"
+  },
+  "name": "Nothing Phone (3)",
+  "description": "Android Smartphone",
+  "price": 54999,
+  "category": "Smartphones",
+  "brand": "Nothing",
+  "image": "https://dummyimage.com/nothing-phone.jpg",
+  "stock": 16
+},
+{
+  "_id": {
+    "$oid": "6a4a00b3bce2b566fa4071ab"
+  },
+  "name": "Apple Watch Series 10",
+  "description": "Smartwatch with Health Tracking",
+  "price": 46999,
+  "category": "Wearables",
+  "brand": "Apple",
+  "image": "https://dummyimage.com/apple-watch.jpg",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "6a4a00c3bce2b566fa4071ad"
+  },
+  "name": "ASUS ROG Strix G16",
+  "description": "Gaming Laptop",
+  "price": 149999,
+  "category": "Laptops",
+  "brand": "ASUS",
+  "image": "https://dummyimage.com/asus-rog.jpg",
+  "stock": 8
+},
+{
+  "_id": {
+    "$oid": "6a4a00d2bce2b566fa4071af"
+  },
+  "name": "Samsung 27-inch 4K Monitor",
+  "description": "Ultra HD IPS Monitor",
+  "price": 28999,
+  "category": "Monitors",
+  "brand": "Samsung",
+  "image": "https://dummyimage.com/samsung-monitor.jpg",
+  "stock": 22
+},
+{
+  "_id": {
+    "$oid": "6a4a00e4bce2b566fa4071b1"
+  },
+  "name": "GoPro HERO13 Black",
+  "description": "Action Camera",
+  "price": 44990,
+  "category": "Cameras",
+  "brand": "GoPro",
+  "image": "https://dummyimage.com/gopro13.jpg",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "6a4a00f7bce2b566fa4071b3"
+  },
+  "name": "Canon EOS R50",
+  "description": "Mirrorless Camera",
+  "price": 68999,
+  "category": "Cameras",
+  "brand": "Canon",
+  "image": "https://dummyimage.com/canon-r50.jpg",
+  "stock": 12
+},
+{
+  "_id": {
+    "$oid": "6a4a0107bce2b566fa4071b5"
+  },
+  "name": "JBL Flip 6",
+  "description": "Portable Bluetooth Speaker",
+  "price": 9999,
+  "category": "Speakers",
+  "brand": "JBL",
+  "image": "https://dummyimage.com/jbl-flip6.jpg",
+  "stock": 35
+},
+{
+  "_id": {
+    "$oid": "6a4a0117bce2b566fa4071b7"
+  },
+  "name": "boAt Airdopes 311 Pro",
+  "description": "True Wireless Earbuds",
+  "price": 2499,
+  "category": "Audio",
+  "brand": "boAt",
+  "image": "https://dummyimage.com/boat-airdopes.jpg",
+  "stock": 60
+},
+{
+  "_id": {
+    "$oid": "6a4a012ebce2b566fa4071b9"
+  },
+  "name": "Apple MacBook Air M3",
+  "description": "Lightweight Performance Laptop",
+  "price": 124900,
+  "category": "Laptops",
+  "brand": "Apple",
+  "image": "https://dummyimage.com/macbook-air.jpg",
+  "stock": 18
+},
+{
+  "_id": {
+    "$oid": "6a4a0141bce2b566fa4071bb"
+  },
+  "name": "Dell XPS 13",
+  "description": "13-inch Ultrabook Laptop",
+  "price": 129999,
+  "category": "Laptops",
+  "brand": "Dell",
+  "image": "https://dummyimage.com/dell-xps13.jpg",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "6a4a0150bce2b566fa4071bd"
+  },
+  "name": "Sony WH-1000XM5",
+  "description": "Wireless Noise Cancelling Headphones",
+  "price": 29990,
+  "category": "Audio",
+  "brand": "Sony",
+  "image": "https://dummyimage.com/sony-headphones.jpg",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "6a4a015fbce2b566fa4071bf"
+  },
+  "name": "Samsung Galaxy S25",
+  "description": "5G Android Smartphone",
+  "price": 84999,
+  "category": "Smartphones",
+  "brand": "Samsung",
+  "image": "https://dummyimage.com/galaxy-s25.jpg",
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "6a4a0183bce2b566fa4071c1"
+  },
+  "name": "Apple AirPods Pro 2",
+  "description": "Noise Cancelling Wireless Earbuds",
+  "price": 24999,
+  "category": "Audio",
+  "brand": "Apple",
+  "image": "https://dummyimage.com/airpods.jpg",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "6a4a0193bce2b566fa4071c3"
+  },
+  "name": "Logitech MX Master 3S",
+  "description": "Wireless Mouse",
+  "price": 7999,
+  "category": "Accessories",
+  "brand": "Logitech",
+  "image": "https://dummyimage.com/mouse.jpg",
+  "stock": 40
+}]

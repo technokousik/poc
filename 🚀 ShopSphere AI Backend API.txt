@@ -1,0 +1,286 @@
+🚀 ShopSphere AI Backend API
+
+Base URL
+
+http://localhost:5000/api
+🔐 Authentication APIs
+Method	Endpoint	Purpose	Authentication
+POST	/auth/register	Register a new user	❌
+POST	/auth/login	Login user	❌
+GET	/auth/profile	Get logged-in user profile	✅ JWT
+Register
+POST
+/api/auth/register
+
+Body
+
+{
+    "name":"Sudeshna",
+    "email":"sudeshna@gmail.com",
+    "password":"123456"
+}
+Login
+POST
+/api/auth/login
+
+Body
+
+{
+    "email":"sudeshna@gmail.com",
+    "password":"123456"
+}
+Profile
+GET
+/api/auth/profile
+
+Headers
+
+Authorization : Bearer YOUR_JWT_TOKEN
+📦 Product APIs
+Method	Endpoint	Purpose	Authentication
+GET	/products	Get all products	❌
+GET	/products/:id	Get product by ID	❌
+POST	/products	Add Product	✅ Admin
+PUT	/products/:id	Update Product	✅ Admin
+DELETE	/products/:id	Delete Product	✅ Admin
+Get All Products
+GET
+/api/products
+
+Query Parameters (optional)
+
+?page=1
+
+&limit=10
+
+&search=laptop
+
+&category=Laptop
+
+Example
+
+/api/products?page=1&limit=10&search=laptop
+Get Product
+GET /api/products/:id
+
+Example
+
+GET /api/products/6874abcd1234
+Create Product
+POST /api/products
+
+Headers
+
+Authorization : Bearer ADMIN_TOKEN
+
+Body
+
+{
+  "name":"Lenovo LOQ",
+  "brand":"Lenovo",
+  "category":"Laptop",
+  "price":58999,
+  "rating":4.8,
+  "stock":15,
+  "description":"Gaming Laptop",
+  "image":"https://example.com/image.jpg"
+}
+Update Product
+PUT /api/products/:id
+
+Headers
+
+Authorization : Bearer ADMIN_TOKEN
+
+Body
+
+{
+    "price":54999,
+    "stock":25
+}
+Delete Product
+DELETE /api/products/:id
+
+Headers
+
+Authorization : Bearer ADMIN_TOKEN
+🛒 Cart APIs
+Method	Endpoint	Purpose	Authentication
+GET	/cart	Get Logged-in User Cart	✅ JWT
+POST	/cart	Add Product to Cart	✅ JWT
+PUT	/cart/:productId	Update Quantity	✅ JWT
+DELETE	/cart/:productId	Remove Product	✅ JWT
+DELETE	/cart	Clear Cart	✅ JWT
+Add To Cart
+POST /api/cart
+
+Headers
+
+Authorization : Bearer YOUR_JWT_TOKEN
+
+Body
+
+{
+    "productId":"6874abcd1234",
+    "quantity":2
+}
+Update Quantity
+PUT /api/cart/6874abcd1234
+
+Body
+
+{
+    "quantity":3
+}
+📦 Order APIs
+Method	Endpoint	Purpose	Authentication
+POST	/orders	Place Order	✅ JWT
+GET	/orders	User Order History	✅ JWT
+GET	/orders/:id	Order Details	✅ JWT
+PUT	/orders/:id/status	Update Order Status	✅ Admin
+Place Order
+POST /api/orders
+
+Headers
+
+Authorization : Bearer YOUR_JWT_TOKEN
+
+Body
+
+{
+    "shippingAddress":"Kolkata",
+    "paymentMethod":"UPI"
+}
+📊 Dashboard APIs
+Method	Endpoint	Purpose	Authentication
+GET	/dashboard	Complete Admin Dashboard	✅ Admin
+Dashboard
+GET /api/dashboard
+
+Headers
+
+Authorization : Bearer ADMIN_TOKEN
+
+Response
+
+{
+  "overview": {
+    "totalRevenue": 450000,
+    "totalOrders": 58,
+    "totalProducts": 40,
+    "totalCustomers": 18
+  },
+  "orderStats": {
+    "pending": 4,
+    "processing": 3,
+    "shipped": 6,
+    "delivered": 40,
+    "cancelled": 5
+  },
+  "inventory": {
+    "lowStockProducts": 4,
+    "outOfStockProducts": 2
+  },
+  "recentOrders": [],
+  "topProducts": [],
+  "monthlyRevenue": []
+}
+🤖 AI APIs
+
+These are the highlight of your project.
+
+Method	Endpoint	Purpose	Authentication
+POST	/ai/shopping	Shopping Agent	✅ JWT
+POST	/ai/compare	Compare Agent	✅ JWT
+POST	/ai/cart	Cart Optimization Agent	✅ JWT
+POST	/ai/support	Customer Support Agent	✅ JWT
+🛍 Shopping Agent
+POST /api/ai/shopping
+
+Headers
+
+Authorization : Bearer YOUR_JWT_TOKEN
+
+Body
+
+{
+    "query":"Need a laptop under 60000 for React development"
+}
+⚖ Compare Agent
+POST /api/ai/compare
+
+Headers
+
+Authorization : Bearer YOUR_JWT_TOKEN
+
+Body
+
+{
+    "productId1":"6874abcd1234",
+    "productId2":"6874xyz9876"
+}
+🛒 Cart Agent
+POST /api/ai/cart
+
+Headers
+
+Authorization : Bearer YOUR_JWT_TOKEN
+
+Body
+
+{}
+💬 Support Agent
+POST /api/ai/support
+
+Headers
+
+Authorization : Bearer YOUR_JWT_TOKEN
+
+Body
+
+{
+    "query":"Where is my latest order?"
+}
+🔑 Authentication Summary
+Endpoint Type	JWT Required	Admin Required
+Register	❌	❌
+Login	❌	❌
+Profile	✅	❌
+Products (GET)	❌	❌
+Product CRUD	✅	✅
+Cart	✅	❌
+Orders	✅	❌
+Dashboard	✅	✅
+AI Shopping	✅	❌
+AI Compare	✅	❌
+AI Cart	✅	❌
+AI Support	✅	❌
+🏗️ Complete Backend Architecture
+Client (React)
+        │
+        ▼
+Express Routes
+        │
+        ▼
+Controllers
+        │
+        ▼
+Services
+        │
+        ├── Dashboard Service
+        │
+        └── AI Service
+               │
+               ├── Shopping Agent
+               ├── Compare Agent
+               ├── Cart Agent
+               └── Support Agent
+        │
+        ▼
+MongoDB + Gemini
+        │
+        ▼
+JSON Response
+💡 Recommendation for Your Project
+
+Since you're building this as an interview-focused project, I recommend adding Swagger/OpenAPI documentation as a final enhancement. It takes about 20–30 minutes to integrate and gives you an interactive API documentation page (e.g., http://localhost:5000/api-docs) where interviewers can explore and test all your endpoints directly. It creates a strong professional impression without requiring major changes to your existing codebase.
